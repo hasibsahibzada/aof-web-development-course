@@ -4,7 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <title>
       My first restaurant
     </title>
   </head>
@@ -25,7 +30,7 @@
       <div class="social-connect">
         <div class="nav-button">
           <a href="https://facebook.com" target="_blank">
-            <button>Facebook</button>
+            <button class="facebook">Facebook</button>
           </a>
         </div>
         <div>
@@ -35,13 +40,14 @@
         </div>
       </div>
     </div>
-    <div class="body"><!-- body -->
-      <h1>
-        Welcome to AOF
-      </h1>
+    <div class="content"><!-- body -->
+      <div class="title">
+        <h1>Welcome to AOF</h1>
       <h3>
         Here will be some texts and images
       </h3>
+      </div>
+      <div w3-include-html="./contact/contact.html"></div>
     </div>
   </body>
 </html>
