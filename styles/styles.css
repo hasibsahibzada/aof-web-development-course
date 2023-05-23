@@ -53,8 +53,7 @@ body {
 }
 
 .index-nav-button:hover {
-    background-color: rgb(213, 196, 196);
-    border: 2px solid white;
+    background-color: rgb(201, 201, 218);
 }
 
 .nav-button {
@@ -71,11 +70,59 @@ button {
 
 .social-connect > .nav-button > a > .facebook {
     cursor: default;
-} 
+}
 
 .social-connect {
     flex: 1 1 20%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.footer {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+.footer-item > i {
+    font-size: 24px;
+    padding-right: 8px;
+
+    filter: brightness(0.2);
+}
+
+.footer-row > :nth-child(4) {
+    flex: 0 0 auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+    justify-content: center;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-right > img {
+    padding-right: 12px;
+    opacity: 0.5;
 }
