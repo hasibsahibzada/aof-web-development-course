@@ -44,3 +44,23 @@
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+textarea {
+    height: 400px;
+}

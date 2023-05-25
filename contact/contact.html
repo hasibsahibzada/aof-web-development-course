@@ -58,6 +58,55 @@
           <div>Hasib@gmail.com</div>
         </div>
       </div>
+      <div class="contact-form">
+        <h2>If you have any questions please fill the bellow contact form.</h2>
+        <form action="submit.php">
+          <div class="formGroup">
+            <label for="firstName">First name:</label>
+            <input type="text" name="firstName" id="firstName">
+          </div>
+          <div class="formGroup">
+            <label for="lastName">Last name:</label>
+            <input type="text" name="lastName" id="lastName">
+          </div>
+          <div class="formGroup">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+          </div>
+          <div class="formGroup">
+            <label for="description">Description</label>
+            <textarea id="description" name="description">
+            </textarea>
+          </div>
+          <div class="formGroup">
+            <h3>Which course are you in ?</h3>
+            <select name="course">
+              <option value="">Select a course</option>
+              <option value="web">Web development course</option>
+              <option value="eng">English course</option>
+            </select>
+          </div>
+          <div class="formGroup">
+            <h3>Your question is related to</h3>
+            <input type="radio" id="mg" name="issueType" value="management" />
+            <label for="mg">Management</label><br>
+            <input type="radio" id="teacher" name="issueType" value="teacher" />
+            <label for="teacher">Teacher</label><br>
+            <input type="radio" id="homework" name="issueType" value="homework" />
+            <label for="homework">Homework</label>
+          </div>
+          <div class="formGroup">
+            <h3>To proceed please check the bellow boxes.</h3>
+            <input type="checkbox" id="terms" name="terms" value="agreetoterms" />
+            <label for="terms">I agree to the terms and condition</label><br>
+
+            <input type="checkbox" id="privacy" name="privacy" value="agreetoprivacy" />
+            <label for="privacy">I agree to privacy policy</label><br>
+
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
       <div>
         Video tutorial
         <div class="videos">
