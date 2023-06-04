@@ -3,37 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/af145c6345.js" crossorigin="anonymous"></script>  </head>
+  <script src="calculator.js"></script>
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <title>
-      AOf- Open University of Afghanistan
+      My Results
     </title>
   </head>
   <body>
-    <script src="./js/index.js"></script>
     <div class="header"><!-- header -->
       <div class="index-navigation"><!-- navigation -->
-        <div class="logo"><img src="./assets/aof-logo.png" height="100px" width="100px" /></div>
+        <div class="logo"><img src="../assets/aof-logo.png" height="100px" width="100px" /></div>
         <div class="nav-button">
-          <a href="index.html"><button class="index-nav-button">Home</button></a>
+          <a href="../index.html"><button class="index-nav-button">Home</button></a>
         </div>
         <div class="nav-button">
-          <a href="./courses/courses.html"><button class="index-nav-button">Courses</button></a>
+          <a href="../courses/courses.html"><button class="index-nav-button">Courses</button></a>
         </div>
         <div class="nav-button">
-          <a href="contact/contact.html"><button class="index-nav-button">Contacts</button></a>
+          <a href="../contact/contact.html"><button class="index-nav-button">Contacts</button></a>
         </div>
         <div class="nav-button">
-          <a href="gallery/gallery.html"><button class="index-nav-button">Gallery</button></a> 
+          <a href="../gallery/gallery.html"><button class="index-nav-button">Gallery</button></a> 
         </div>
         <div class="nav-button">
-          <a href="results/calculator.html"><button class="index-nav-button">Results</button></a> 
-        </div>
+            <a href="./calculator.html"><button class="index-nav-button">Results</button></a> 
+          </div>
       </div>
       <div class="social-connect">
         <div class="nav-button">
@@ -49,13 +49,12 @@
       </div>
     </div>
     <div class="content"><!-- body -->
-      <div class="title" >
-        <h1 id="welcome">Welcome to AOF</h1>
-      <h3>
-        Here will be some texts and images
-      </h3>
-      </div>
-      <div w3-include-html="./contact/contact.html"></div>
+        <div>
+            <label for="a">A: </label><input id="a" type="text" /><br/><br />
+            <label for="b">B: </label><input id="b" type="text" /><br/><br />
+            <span>Result:</span><span id="result"></span><br/><br />
+            <button onclick="onAddButtonClick()">Add</button>
+        </div>
     </div>
     <div class="footer">
       <div class="footer-row">
@@ -85,7 +84,7 @@
       </div>
       <div class="footer-row">
         <div class="copy-right">
-          <img src="./assets/aof-logo.png" width="25px" height="25px" />
+          <img src="../assets/aof-logo.png" width="25px" height="25px" />
           <div>Copyright © 2023 AOF</div>
         </div>
       </div>
